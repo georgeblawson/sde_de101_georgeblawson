@@ -1,2 +1,16 @@
 1. Move data between systems.
-2. yqiuyqwiey
+    ETL
+2. Manage Data Warehouse
+    1.Warehouse data modelling - model the data for analytical queries (typically aggregations performed on large tables). Here you have to apply the appropriate partition, handling of fact and dimension tables, etc.
+    2.Warehouse performance - make sure queries are fast and warehouse is scalable
+    3.Data quality
+3. Schedule, execute and monitor data pipelines
+4. Serve data to end users 
+5. Data strategy for the company
+6. Deploy ML models to production
+
+
+Imagine that you are hired to enable data analytics; where would you start? 
+
+Start by asking what analytics the busniess users need or what problems they are trying to solve/monitor with data.
+From there figure out how to map a pipeline that feeds these results.
